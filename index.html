@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ramirez Portfolio</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://kit.fontawesome.com/98bf82398b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+	<div class="container">
+		<nav>
+			<img src="images/logo.png" class="logo">
+			<ul id="sidemenu">
+				<li><a href="#header">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#services">Services</a></li>
+				<li><a href="#portfolio">Portfolio</a></li>
+				<li><a href="#contact">Contact</a></li>
+				<i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+			</ul>
+			<i class="fa-solid fa-bars" onclick="openmenu()"></i>
+			<a href="#"><i class="fa-solid fa-circle-up"></i></a>
+		</nav>
+		<div class="header-text">
+			<p style="color:white;">BatStateU Student</p>
+			<h1 style="color:white;">Hi, I'm <span>Ralph</span><br>Ramirez From Batangas</h1>
+		</div>
+	</div>
+</div>
+<!-- --------About-------- -->
+<div id="about">
+	<div class="container">
+		<div class="row">
+			<div class="about-col-1">
+				<img src="images/user.png">														
+			</div>														
+			<div class="about-col-2">
+				<h1 class="sub-title">About Me</h1>
+				<p>Hello! I am Ralph Rosyl M. Ramirez. I'm 20 years old, born on July 8, 2002 in Batangas. I live in Banaba West, Batangas City together with my mother and siblings while my father live abroad as an OFW. I graduated from Banaba West Elementary School when I was in elementary school, Banaba West Integrated School when I was in junior high, and Asian Institute of Computer Studies when I was in senior high, with ICT as my chosen strand. I am now a college student thanks to my parents' sacrifice and their support for me in terms of financial and mental support. I am now pursuing my ambition of becoming a programmer in the near future.</p>
+				
+				<div class="tab-titles">
+					<p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+					<p class="tab-links" onclick="opentab('Hobbies')">Hobbies</p>
+					<p class="tab-links" onclick="opentab('Education')">Education</p>
+				</div>
+				<div class="tab-contents active-tab" id="skills">
+					<ul>
+						<li><span>Gaming</span><br>League of Legends, Mobile Legends, Osu!</li>
+						<li><span>Coding</span><br>C++, HTML, CSS</li>
+						<li><span>Rubiks Cube</span><br>3x3x3, 5x5x5, Megaminx</li>
+					</ul>
+				</div>
+				<div class="tab-contents" id="Hobbies">
+					<ul>
+						<li><span>Reading</span><br>Manhua, Manga, Manhwa</li>
+						<li><span>Playing</span><br>Computer Games, Smartphone Games</li>
+						<li><span>Watching</span><br>Anime, Donghua, Movies</li>
+					</ul>
+				</div>
+				<div class="tab-contents" id="Education">
+					<ul>
+						<li><span>Primary</span><br>Graduated primary school in Banaba West Elem. School</li>
+						<li><span>Secondary</span><br>Graduated secondary school in Banaba West Integrated School</li>
+						<li><span>Senior High</span><br>Graduated senior high school in Asian Institute of Computer Studies</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- --------------services--------------- -->
+<div id="services">
+	<div class="container">
+		<h1 class="sub-title">My Services</h1>
+		<div class="services-list">
+			<div>
+				<i class="fa-solid fa-gamepad"></i>
+				<h2>Gaming Tutor</h2>
+				<p>I can teach you the basics of the games that I know how to play.</p>
+				<a href="https://en.wikipedia.org/wiki/Multiplayer_online_battle_arena">Learn more</a>
+			</div>
+			<div>
+				<i class="fa-solid fa-tv"></i>
+				<h2>Anime Recommendation</h2>
+				<p>I can recommend you some animes that I think you'll probably like based on your genre taste.</p>
+				<a href="https://myanimelist.net/">Learn more</a>
+			</div>
+			<div>
+				<i class="fa-solid fa-cube"></i>
+				<h2>Rubiks Cube</h2>
+				<p>I can teach you the basics of rubiks cube.</p>
+				<a href="https://rubiks.com/en-US/">Learn more</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!-- -------------portfolio------------ -->
+<div id="portfolio">
+	<div class="container">
+		<h1 class="sub-title">My Profiles</h1>
+		<div class="work-list">
+			<div class="work">
+				<img src="images/work-1.png">
+				<div class="layer">
+					<h3>Osu! Profile</h3>
+					<p>Profile of the game I play in computer.</p>
+					<a href="https://osu.ppy.sh/users/27507857"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+				</div>
+			</div>
+			<div class="work">
+				<img src="images/work-2.png">
+				<div class="layer">
+					<h3>RFID Attendance System</h3>
+					<p>An RFID Attendance System research project in 3rd yr College that is web-based.</p>
+					<a href="https://discord.com/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+				</div>
+			</div>
+			<div class="work">
+				<img src="images/work-3.png">
+				<div class="layer">
+					<h3>RFID Attendance System</h3>
+					<p>An RFID Attendance System research project in 3rd yr College that is web-based.</p>
+					<a href="https://www.youtube.com/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+				</div>
+			</div>
+		</div>
+		<a href="#" class="btn">Home</a>
+	</div>
+</div>
+
+<!-- -------------contact------------- -->
+
+<div id="contact">
+	<div class="container">
+		<div class="row">
+			<div class="contact-left">
+				<h1 class="sub-title">Contact Me</h1>
+				<p><i class="fa-solid fa-paper-plane"></i>20-00674@g.batstate-u.edu.ph</p>
+				<p><i class="fa-solid fa-square-phone"></i>09564273152</p>
+				<div class="social-icons">
+					<a href="https://www.facebook.com/JustLiving.me"><i class="fa-brands fa-square-facebook"></i></a>
+					<a href="https://www.instagram.com/"><i class="fa-brands fa-square-instagram"></i></a>
+					<a href="https://twitter.com/?lang=en"><i class="fa-brands fa-square-twitter"></i></a>
+				</div>
+				<a href="images/Curriculum Vitae.pdf" download class="btn btn2">Download Cv</a>
+			</div>
+			<div class="contact-right">
+				<form name="submit-to-google-sheet">
+					<input type="text" name="Name" placeholder="Your Name" required>
+					<input type="email" name="Email" placeholder="Your Email" required>
+					<textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+					<button type="submit" class="btn btn2">Submit</button>
+				</form>
+				<span id="msg"></span>
+			</div>
+		</div>
+	</div>
+	<div class="copyright">
+		<p>Copyright Ⓒ Ralph. Made with <i class="fa-solid fa-heart"></i>Easy Tutorials</p>
+	</div>
+</div>
+
+
+<script>
+
+	var tablinks = document.getElementsByClassName("tab-links");
+	var tabcontents = document.getElementsByClassName("tab-contents");
+	function opentab(tabname){
+		for(tablink of tablinks){
+			tablink.classList.remove("active-link");
+		}
+		for(tabcontent of tabcontents){
+			tabcontent.classList.remove("active-tab");
+		}
+		event.currentTarget.classList.add("active-link");
+		document.getElementById(tabname).classList.add("active-tab");
+	}
+
+
+</script>
+
+<script>
+
+	var sidemenu = document.getElementById("sidemenu");
+	
+	function openmenu(){
+		sidemenu.style.right = "0";
+	}
+	function closemenu(){
+		sidemenu.style.right = "-150px";
+	}
+
+</script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzGjruJmRddHyp1bJrJ1z2z2TjTfogrA6BAd44tU50Is432b5fsewYrOGiFD64a5CA/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+		msg.innerHTML = "Message sent successfully"
+		setTimeout(function(){
+			msg.innerHTML = ""
+		},5000)
+		form.reset()
+	  })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+</body>
+</html>
